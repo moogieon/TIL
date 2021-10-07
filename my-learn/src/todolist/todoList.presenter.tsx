@@ -5,6 +5,7 @@ import {
   Text1,
   Body,
   ListBox,
+  Line,
   TodoInput,
   Add,
 } from "./todoList.styles";
@@ -23,6 +24,7 @@ export default function TodoListUI() {
             <TodoInput></TodoInput>
             <Add>추가</Add>
           </ListBox>
+          <Line />
         </Body>
       </Wrapper>
     </>

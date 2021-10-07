@@ -35,6 +35,7 @@ width: 100%;
 height: 1200px;
 margin-top: 100px;
 display: flex;
+flex-direction: column;
 padding-left: 50px;
 `
 export const ListBox=styled.div`
@@ -54,4 +55,9 @@ font-size: 14px;
 export const Add=styled.button`
 color: black;
 font-size: 20px;
+`
+export const Line=styled.div`
+border-top: 1px solid black;
+margin-top: 100px;
+width: 100%;
 `
