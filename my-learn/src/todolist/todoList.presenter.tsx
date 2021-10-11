@@ -25,6 +25,10 @@ export default function TodoListUI() {
             <Add>추가</Add>
           </ListBox>
           <Line />
+          <ListBox>
+            <TodoInput></TodoInput>
+            <Add>삭제</Add>
+          </ListBox>
         </Body>
       </Wrapper>
     </>
