@@ -52,9 +52,25 @@ height: 100%;
 font-size: 14px;
 
 `
+export const TodoList=styled.div`
+width: 300px;
+height: 100%;
+font-size: 14px;
+
+`
 export const Add=styled.button`
 color: black;
 font-size: 20px;
+:hover{
+    color: yellow;
+}
+`
+export const Delete=styled.button`
+color: black;
+font-size: 20px;
+:hover{
+    color: yellow;
+}
 `
 export const Line=styled.div`
 border-top: 1px solid black;

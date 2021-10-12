@@ -8,6 +8,8 @@ import {
   Line,
   TodoInput,
   Add,
+  TodoList,
+  Delete,
 } from "./todoList.styles";
 
 export default function TodoListUI() {
@@ -26,8 +28,8 @@ export default function TodoListUI() {
           </ListBox>
           <Line />
           <ListBox>
-            <TodoInput></TodoInput>
-            <Add>삭제</Add>
+            <TodoList></TodoList>
+            <Delete>삭제</Delete>
           </ListBox>
         </Body>
       </Wrapper>
