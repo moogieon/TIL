@@ -12,7 +12,7 @@ import {
   Delete,
 } from "./todoList.styles";
 
-export default function TodoListUI() {
+export default function TodoListUI(props) {
   return (
     <>
       <Wrapper>
@@ -24,7 +24,7 @@ export default function TodoListUI() {
         <Body>
           <ListBox>
             <TodoInput></TodoInput>
-            <Add>추가</Add>
+            <Add onClick={props.onClickAdd}>추가</Add>
           </ListBox>
           <Line />
           <ListBox>

@@ -1,5 +1,6 @@
 import TodoListUI from "./todoList.presenter";
 
 export default function TodoList() {
-  return <TodoListUI />;
+  const onClickAdd = () => {};
+  return <TodoListUI onClickAdd={onClickAdd} />;
 }
