@@ -23,12 +23,12 @@ export default function TodoListUI(props) {
         </Head>
         <Body>
           <ListBox>
-            <TodoInput></TodoInput>
-            <Add onClick={props.onClickAdd}>추가</Add>
+            <TodoInput id="list" onChange={props.onChangeTodo}></TodoInput>
+            <Add onClick={props.onClickAdd(props.todo)}>추가</Add>
           </ListBox>
           <Line />
           <ListBox>
-            <TodoList></TodoList>
+            <TodoList>{props.todo}</TodoList>
             <Delete>삭제</Delete>
           </ListBox>
         </Body>

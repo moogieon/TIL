@@ -50,12 +50,14 @@ export const TodoInput=styled.textarea`
 width: 300px;
 height: 100%;
 font-size: 14px;
+padding:20px;
 
 `
 export const TodoList=styled.div`
 width: 300px;
 height: 100%;
 font-size: 14px;
+padding:20px;
 
 `
 export const Add=styled.button`
@@ -75,5 +77,6 @@ font-size: 20px;
 export const Line=styled.div`
 border-top: 1px solid black;
 margin-top: 100px;
+margin-bottom: 100px;
 width: 100%;
 `
