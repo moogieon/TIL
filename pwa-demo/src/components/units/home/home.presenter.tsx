@@ -1,3 +1,9 @@
-export default function HomePage() {
-  return;
+import { Wrapper } from "./home.styles";
+
+export default function HomeUI() {
+  return (
+    <>
+      <Wrapper></Wrapper>
+    </>
+  );
 }
