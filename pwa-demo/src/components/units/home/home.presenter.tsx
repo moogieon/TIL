@@ -1,9 +1,12 @@
-import { Wrapper } from "./home.styles";
+import { Wrapper, Head, Body } from "./home.styles";
 
 export default function HomeUI() {
   return (
     <>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Head></Head>
+        <Body></Body>
+      </Wrapper>
     </>
   );
 }
