@@ -1,6 +1,6 @@
-import { Wrapper, Head, Body, Body_Head } from "./home.styles";
+import { Wrapper, Head, Body, Body_Head } from "./portfolio.styles";
 
-export default function HomeUI() {
+export default function PortfolioUI() {
   return (
     <>
       <Wrapper>
