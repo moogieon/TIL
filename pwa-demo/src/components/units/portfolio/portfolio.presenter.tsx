@@ -4,9 +4,16 @@ export default function PortfolioUI() {
   return (
     <>
       <Wrapper>
-        <Head>PWA</Head>
+        <Head>My Portfolio</Head>
         <Body>
-          <Body_Head></Body_Head>
+          <Body_Head>
+            <ul>
+              <li>Shop</li>
+              <li> 헤이고</li>
+              <li>TodoList</li>
+              <li>반응형 웹사이트</li>
+            </ul>
+          </Body_Head>
         </Body>
       </Wrapper>
     </>
