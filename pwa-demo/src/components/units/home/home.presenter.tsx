@@ -17,7 +17,18 @@ export default function HomeUI() {
           <Body_Head>
             <EmailBox>
               <EmailHead>Email 보내기</EmailHead>
-              <EmailBody></EmailBody>
+              <EmailBody>
+                <ul>
+                  <li>
+                    name:
+                    <textarea />
+                  </li>
+                  <li>
+                    email:
+                    <textarea />
+                  </li>
+                </ul>
+              </EmailBody>
             </EmailBox>
           </Body_Head>
         </Body>
