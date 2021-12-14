@@ -1,4 +1,12 @@
-import { Wrapper, Head, Body, Body_Head } from "./home.styles";
+import {
+  Wrapper,
+  Head,
+  Body,
+  Body_Head,
+  EmailBox,
+  EmailHead,
+  EmailBody,
+} from "./home.styles";
 
 export default function HomeUI() {
   return (
@@ -6,7 +14,12 @@ export default function HomeUI() {
       <Wrapper>
         <Head>PWA</Head>
         <Body>
-          <Body_Head></Body_Head>
+          <Body_Head>
+            <EmailBox>
+              <EmailHead>Email 보내기</EmailHead>
+              <EmailBody></EmailBody>
+            </EmailBox>
+          </Body_Head>
         </Body>
       </Wrapper>
     </>
