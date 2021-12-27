@@ -1,3 +1,7 @@
 export default function Layout() {
-  return;
+  return (
+    <>
+      <div>ss</div>
+    </>
+  );
 }
