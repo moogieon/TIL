@@ -8,6 +8,22 @@ export default function MapUI() {
         <Body>
           <Body_Head></Body_Head>
         </Body>
+        <Head>map</Head>
+        <Body>
+          <Body_Head></Body_Head>
+        </Body>
+        <Head>map</Head>
+        <Body>
+          <Body_Head></Body_Head>
+        </Body>
+        <Head>map</Head>
+        <Body>
+          <Body_Head></Body_Head>
+        </Body>
+        <Head>map</Head>
+        <Body>
+          <Body_Head></Body_Head>
+        </Body>
       </Wrapper>
     </>
   );
